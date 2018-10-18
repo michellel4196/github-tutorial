@@ -21,7 +21,11 @@ _By Michelle Lin_
 ---
 ## Initial Setup
 
+Steps to setup:
 
+1) Create a [github](https://github.com/) account
+   * Make a username and password (If you go to HSTAT, you can use your HSTAT email)
+   * 
 
 ---
 ## Repository Setup
