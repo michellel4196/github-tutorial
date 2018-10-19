@@ -62,7 +62,8 @@ _By Michelle Lin_
 ---
 ## Repository Setup
 
-
+When initializing the stage, be sure you are not in the workspace. 
+  * If you did initialize your workspace, you can use 
 
 ---
 ## Workflow & Commands
