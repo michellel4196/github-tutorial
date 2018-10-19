@@ -55,6 +55,8 @@ _By Michelle Lin_
      * The beginning starts with "ssh-rsa"
    * Add SSH key (Only need to use once)
 7) Go to cloud9 --> open git-learning IDE
+   * ssh -T git@github.com
+   * It would say "Hi <your username>!You've successfully authenticated, but GitHub does not provide shell access"
 
 
 ---
