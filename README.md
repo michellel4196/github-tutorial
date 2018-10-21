@@ -76,7 +76,7 @@ _git remote -v_
 
 
 **When initializing the stage, be sure you are not in the workspace.**
-  * If you did initialize your workspace, you can use "rm -rf .git"
+  * If you did initialize your workspace, you can use "_rm -rf .git_"
 ```bash
 michellel4196:~/workspace $ git init 
 initialized empty Git repository in /home/ubuntu/workspace/.git/
@@ -107,12 +107,29 @@ michellel4196:~/workspace/first-repo (master) $ git commit -m "your message"
 michellel4196:~/workspace/first-repo (master) $ 
 ```
 
-Your first add and commit
-
 ---
 ## Workflow & Commands
 
+**git status**
+Optional command to see which files have been edited since the last commit (in red)
+Optional (and recommended) command to see which files are staged for the commit (in green) (remember: git status twice)
 
+**git add "file"** and **git add.** and **"git --all"**
+
+* Add file(s) to stage to be committed 
+* Add current directory to stage (will not add to the stage any deleted files)
+* Include all changes, including deleted files
+
+**git commit -m "message"**
+
+* Take a snapshot of file on the stage. Message should be present-tense & describe what was modified in this snapshot(create ‘HTML’ template)
+
+**git push -u origin master**
+
+* This pushes the changes of your file into github
+* The "_-u origin master_" is to make the computer know where you want the commit to go
+   * You don't have to rewrite this part again next time because the computer will know where you want your commits to go
+   * You can type _git push_
 
 ---
 ## Rolling Back Changes
