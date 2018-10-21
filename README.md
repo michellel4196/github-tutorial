@@ -133,3 +133,17 @@ Optional (and recommended) command to see which files are staged for the commit 
 
 ---
 ## Rolling Back Changes
+
+**Undoing edits**
+
+_git checkout -- filename_
+
+**Undoing adds**
+
+_git reset HEAD filename_
+
+**Undoing commits**
+
+_git reset --soft HEAD~1_
+
+**Undoing pushes**
