@@ -62,9 +62,20 @@ _By Michelle Lin_
 ---
 ## Repository Setup
 
-To make a new repo on github
+**To make a new repo on github:**
 
-When initializing the stage, be sure you are not in the workspace. 
+1) Go to [github.com](https://github.com/)
+2) Top right corner of the screen > click the plus sign > new repository
+3) Name your repository "first-repo" (Make sure to always make the name of your repo match with your c9 repo)
+4) Click "Create repository"
+(If it asks you to verify your email. Do it. If not, then don't worry about it.)
+5) Make sure you have SSH selected
+6) copy/paste these one at a time
+
+_git remote -v_
+
+
+**When initializing the stage, be sure you are not in the workspace.**
   * If you did initialize your workspace, you can use "rm -rf .git"
 ```bash
 michellel4196:~/workspace $ git init 
@@ -90,7 +101,10 @@ michellel4196:~/workspace/first-repo (master) $ c9 README.md
 When you are done writing in your file > add > commit 
 ```bash
 michellel4196:~/workspace/first-repo (master) $ git add README.md
-
+michellel4196:~/workspace/first-repo (master) $ git commit -m "your message"
+[master 7e04f8f] continue repo setup
+ 1 file changed, 38 insertions(+), 8 deletions(-)
+michellel4196:~/workspace/first-repo (master) $ 
 ```
 
 Your first add and commit
