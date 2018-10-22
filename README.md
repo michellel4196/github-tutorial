@@ -136,6 +136,8 @@ Changes to be committed:
         modified:   README.md
 michellel4196:~/workspace/first-repo (master) $ 
 ```
+* The first _git status_ is before you added the file to the stage > it will tell you either to use _git add_ or use _git checkout_ (undoing the edits you've done)
+* The second _git status_ is after you've added the file to stage > it will tell you to use _git reset HEAD_ (to undo your add), this is up to you to decide if you want to continue or unstage the file
 
 **git add "file"** and **git add.** and **"git --all"**
 
