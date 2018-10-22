@@ -113,6 +113,29 @@ michellel4196:~/workspace/first-repo (master) $
 **git status**
 Optional command to see which files have been edited since the last commit (in red)
 Optional (and recommended) command to see which files are staged for the commit (in green) (remember: git status twice)
+```bash
+michellel4196:~/workspace/first-repo (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+michellel4196:~/workspace/first-repo (master) $ git add README.md
+michellel4196:~/workspace/first-repo (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+michellel4196:~/workspace/first-repo (master) $ 
+```
 
 **git add "file"** and **git add.** and **"git --all"**
 
@@ -134,16 +157,14 @@ Optional (and recommended) command to see which files are staged for the commit 
 ---
 ## Rolling Back Changes
 
-**Undoing edits**
+**Undoing edits** = _git checkout -- filename_
 
-_git checkout -- filename_
+**Undoing adds** = _git reset HEAD filename_
 
-**Undoing adds**
+**Undoing commits** = _git reset --soft HEAD~1_
 
-_git reset HEAD filename_
+**Undoing pushes** = _git reset_
 
-**Undoing commits**
+**Undoing push, commit and add at the same time** = _git reset HEAD~1_
 
-_git reset --soft HEAD~1_
-
-**Undoing pushes**
+**Undoing push, commit, add, and edit at the same time** = _git reset --hard HEAD~1_
