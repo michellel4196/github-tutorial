@@ -54,13 +54,15 @@ _By Michelle Lin_
 ---
 ## Repository Setup
 
-**To make a new repo on github:**
+**To make a remote repo on github:**
 
 1) Go to [github.com](https://github.com/)
 2) Top right corner of the screen > click the plus sign > new repository
 3) Name your repository "first-repo" (Make sure to always make the name of your repo match with your c9 repo)
 4) Click "Create repository"
 (If it asks you to verify your email. Do it. If not, then don't worry about it.)
+
+**To make the connection between Github and c9**
 5) Make sure you have SSH selected
 6) copy/paste these one at a time
 
@@ -68,7 +70,7 @@ _git remote -v_
 
 
 **When initializing the stage, be sure you are not in the workspace.**
-  * If you did initialize your workspace, you can use "_rm -rf .git_"
+  * If you initialized your workspace by accident, you can use "_rm -rf .git_"
 ```bash
 michellel4196:~/workspace $ git init 
 initialized empty Git repository in /home/ubuntu/workspace/.git/
@@ -76,7 +78,7 @@ michellel4196:~/workspace (master) $
 michellel4196:~/workspace (master) $ rm -rf .git 
 michellel4196:~/workspace $ 
 ```
-**Your first repo on github:**
+**Your first repo on c9:**
 
 Make a new folder, name it first-repo (make sure you are in the workspace)
 ```bash
