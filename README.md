@@ -22,8 +22,7 @@ _By Michelle Lin_
 2) Choose your plan (Click the free option)
 3) Choose your experiences 
    * Choose the student option
-4) 
-
+  
 **Steps to setup a cloud9 account:**
 
 1) Go to [cloud9](https://c9.io/login)
@@ -45,13 +44,12 @@ _By Michelle Lin_
 5) Title: Cloud9
 6) Key: 
    * Go to your cloud9 tab > top right > gear icon 
-   * Go to "SSH key" tab > copy & paste the 2nd SSH key into github 
+   * Go to "SSH key" tab > copy & paste the 2nd SSH key into the key section under the title 
      * The beginning starts with "ssh-rsa"
-   * Add SSH key (Only need to use once)
+   * Click "Add SSH key" (Only need to use once)
 7) Go to cloud9 > open git-learning IDE
-   * ssh -T git@github.com
+   * Type in `ssh -T git@github.com` into the command line
    * It would say "Hi <your username>!You've successfully authenticated, but GitHub does not provide shell access"
-
 
 ---
 ## Repository Setup
