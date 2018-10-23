@@ -147,14 +147,14 @@ michellel4196:~/workspace/first-repo (master) $
 ---
 ## Rolling Back Changes
 
-**Undoing edits** = _git checkout -- filename_
+**Undoing edits** = `git checkout -- filename`
 
-**Undoing adds** = _git reset HEAD filename_
+**Undoing adds** = `git reset HEAD filename`
 
-**Undoing commits** = _git reset --soft HEAD~1_
+**Undoing commits** = `git reset --soft HEAD~1`
 
-**Undoing pushes** = _git reset_
+**Undoing pushes** = `git reset`
 
-**Undoing push, commit and add at the same time** = _git reset HEAD~1_
+**Undoing commit and add at the same time** = `git reset HEAD~1`
 
-**Undoing push, commit, add, and edit at the same time** = _git reset --hard HEAD~1_
+**Undoing commit, add, and edit at the same time** = `git reset --hard HEAD~1`
