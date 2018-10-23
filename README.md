@@ -104,8 +104,8 @@ michellel4196:~/workspace/first-repo (master) $
 ---
 ## Workflow & Commands
 
-**git status**
-Optional command to see which files have been edited since the last commit (in red)
+**git status**  
+Optional command to see which files have been edited since the last commit (in red)  
 Optional (and recommended) command to see which files are staged for the commit (in green) (remember: git status twice)
 ```bash
 michellel4196:~/workspace/first-repo (master) $ git status
@@ -133,22 +133,16 @@ michellel4196:~/workspace/first-repo (master) $
 * The first _git status_ is before you added the file to the stage > it will tell you either to use _git add_ or use _git checkout_ (undoing the edits you've done)
 * The second _git status_ is after you've added the file to stage > it will tell you to use _git reset HEAD_ (to undo your add), this is up to you to decide if you want to continue or unstage the file
 
-**git add "file"** and **git add.** and **"git --all"**
+#### Most common github commands
 
-* Add file(s) to stage to be committed 
-* Add current directory to stage (will not add to the stage any deleted files)
-* Include all changes, including deleted files
-
-**git commit -m "message"**
-
-* Take a snapshot of file on the stage. Message should be present-tense & describe what was modified in this snapshot(create ‘HTML’ template)
-
-**git push -u origin master**
-
-* This pushes the changes of your file into github
-* The "_-u origin master_" is to make the computer know where you want the commit to go
-   * You don't have to rewrite this part again next time because the computer will know where you want your commits to go
-   * You can type _git push_
+* `git add "file"`: Add a specific file to stage to be committed 
+* `git add .`: Add all new and modifies files to the staging area (will not add to the stage any deleted files)
+* `git --all`: Include all changes, including deleted files
+* `git commit -m "message`: Take a snapshot of file on the stage.The message should be present-tense & describe what was modified in this snapshot(create ‘HTML’ template)
+* `git push -u origin master`: This pushes the changes of your file into github
+  * The `-u origin master` is to make the computer know where you want the commit to go
+    * You don't have to rewrite this part again next time because the computer will know where you want your commits to go
+    * You can type `git push` after you used `-u origin master` at least once
 
 ---
 ## Rolling Back Changes
